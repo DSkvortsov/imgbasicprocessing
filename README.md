@@ -4,18 +4,18 @@ According to requirements:
 - Verify metadata in photos: Given a set of photos, validate the capture time intervals
 - JPG validation: Given a set of photos, show how many are corrupt/invalid
 
-The repository has two main scripts, `blurry_corrupted_validation.py` and `intervals.py`, which
+The repository has two main scripts, `blurry_corrupted_validation.py` and `intervals_validation.py`, which
 use OpenCV, numpy, ExifRead, python-magic libraries to process images
 
 ```bash
 # processing a blurred or damaged files
-python blurry_corupted_validation.py -i blurry_set/ -s blurry_corrupted_results.json -t 250
+python blurry_corrupted_validation.py -i blurry_set/ -s blurry_corrupted_results.json -t 250
 
 # validating time intervals
 python intervals_validation.py -i intervals_set/ -s results_intervals.json -t 2
 ```
 
-The `blurry_corupted_validation.py` script produces a json file with current image information and status.
+The `blurry_corrupted_validation.py` script produces a json file with current image information and status.
 
 ```json
 {
