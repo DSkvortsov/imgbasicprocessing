@@ -7,6 +7,12 @@ According to requirements:
 The repository has two main scripts, `blurry_corrupted_validation.py` and `intervals_validation.py`, which
 use OpenCV, numpy, ExifRead, python-magic libraries to process images
 
+Install: Make sure that Python 2.7 and python-pip installed
+
+```bash
+pip install -r requirements.txt
+```
+
 ```bash
 # processing a blurred or damaged files
 python blurry_corrupted_validation.py -i blurry_set/ -s blurry_corrupted_results.json -t 250
