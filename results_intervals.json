@@ -1,0 +1,22 @@
+{
+    "input_dir": "intervals_set/", 
+    "results": [
+        {
+            "Lag detected": true, 
+            "current_img": "intervals_set/IMG_20170526_093848.jpg", 
+            "current_time": "2017:05:26 09:38:49", 
+            "difference_sec": 2.5166666666666666, 
+            "next_img": "intervals_set/IMG_20170526_094120.jpg", 
+            "next_time": "2017:05:26 09:41:20"
+        }, 
+        {
+            "Lag detected": true, 
+            "current_img": "intervals_set/IMG_20170526_094120.jpg", 
+            "current_time": "2017:05:26 09:41:20", 
+            "difference_sec": 7.7, 
+            "next_img": "intervals_set/IMG_20170526_094901.jpg", 
+            "next_time": "2017:05:26 09:49:02"
+        }
+    ], 
+    "threshold": 2.0
+}
